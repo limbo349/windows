@@ -35,9 +35,9 @@ RUN echo "$VERSION_ARG" > /run/version
 VOLUME /storage
 EXPOSE 3389 8006
 
-ENV VERSION="10l"
-ENV RAM_SIZE="8G"
-ENV CPU_CORES="4"
+ENV VERSION="8e"
+ENV RAM_SIZE="6G"
+ENV CPU_CORES="3"
 ENV DISK_SIZE="206G"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
